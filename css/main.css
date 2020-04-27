@@ -114,6 +114,20 @@ body,
 
 /* / service part end / */
 
+/* counter start */
+.counter {
+  padding: 40px 0;
+  background-color: rgb(85, 193, 243);
+}
+
+.counter h1 {
+  font-size: 35px;
+}
+.counter i {
+  font-size: 30px;
+}
+/* counter end */
+
 /* footer start */
 footer {
   background-color: #2f89fc;
@@ -140,6 +154,14 @@ footer ul li {
 }
 footer ul li a {
   color: white;
+}
+
+.sociallist li {
+  margin: 0 21px;
+}
+
+.sociallist li i {
+  font-size: 25px;
 }
 
 /* footer end */
