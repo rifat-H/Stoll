@@ -1,3 +1,48 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	outline: 0px;
+}
+ a,a:hover{
+	text-decoration: none;
+}
+ul,ol,li{
+	list-style: none;
+}
+img{
+	vertical-align: middle;
+	border: none; 
+}
+h1,h2,h3,h4,h5,h5,ul,ol,li,img,p,body, .navbar, .row{
+	margin: 0px;
+	padding: 0px;
+}
+
+.mt-30{
+	margin-top: 30px;
+}
+
+.common-heading-service{
+
+	padding: 74px 0px 82px;
+}
+
+.common-heading-service h1{
+	font-family: ;
+	font-weight: 800;
+	font-size: 46px;
+	color: #02918c;
+}
+.common-heading-service img{
+	margin-top: 43px;
+    margin-left: 0px;
+    width: 107px;
+    margin-bottom: 6px;
+}
+
+
+
+
 /* about start */
 
 .about {
