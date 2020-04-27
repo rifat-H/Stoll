@@ -1,0 +1,91 @@
+/* about start */
+
+.about {
+    padding: 50px 0px;
+}
+
+.about .alfa_p {
+    padding-bottom: 30px;
+    color: #3b5493;
+}
+
+.about h3 {
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    line-height: 50px;
+}
+
+.about .alfa_p1 {
+    line-height: 25px;
+    padding-bottom: 40px;
+}
+
+.about a {}
+
+/* about end */
+
+/* service part start */
+
+.service-part {
+    background: #f0f0e8;
+}
+
+.service-con {
+    margin-left: 82px;
+}
+
+.service-con p {
+    font-size: 16px;
+    color: #7e8287;
+    line-height: 48px;
+}
+
+.service-con-2 h5 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    padding: 17px 0px 8px;
+}
+
+.service-con-2 h6 {
+    font-size: 11px;
+    color: #7e8287;
+    line-height: 24px;
+}
+
+/* service part end */
+
+/* footer start */
+
+footer {
+    background-color: #3b5493;
+    padding: 75px 0;
+    color: white;
+    .social {
+        margin-top: 10px;
+        ul {
+            li {
+                margin: 0 21px;
+                a {
+                    color: white;
+                    svg {
+                        &:hover {
+                            color: orange;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    h1 {
+        font-size: 27px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    p {
+        margin-bottom: 10px;
+    }
+}
+
+/* footer end */
