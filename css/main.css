@@ -45,7 +45,8 @@ footer .social {
 footer ul {
 }
 footer ul li {
-  margin: 0 21px;
+  /* margin: 0 21px; */
+  margin-bottom: 3px;
 }
 footer ul li a {
   color: white;
