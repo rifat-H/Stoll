@@ -114,6 +114,151 @@ body,
 
 /* / service part end / */
 
+/* doctors start */
+.doctors {
+  padding: 50px 0;
+}
+.staff {
+  overflow: hidden;
+  margin-bottom: 30px;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.staff .img-wrap {
+  height: 300px;
+}
+.staff .img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: block;
+  background-position: top center;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.staff .text {
+  position: relative;
+  background: #fff;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.staff .text h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 0;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.staff .text .position {
+  text-transform: uppercase;
+  color: #b3b3b3;
+  display: block;
+  letter-spacing: 1px;
+}
+.staff .text .faded {
+  opacity: 1;
+}
+.staff .ftco-social {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  right: 0;
+  padding: 15px 10px;
+  background: #fff;
+  opacity: 0;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.staff .ftco-social li a {
+  color: #ff8000;
+}
+.staff:hover .ftco-social,
+.staff:focus .ftco-social {
+  opacity: 1;
+  top: -40px;
+}
+.staff:hover .img,
+.staff:focus .img {
+  margin-top: -10px;
+}
+.staff:hover .text h3,
+.staff:focus .text h3 {
+  color: #2f89fc;
+}
+
+.ftco-social {
+  padding: 0;
+}
+.ftco-social li {
+  list-style: none;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.heading-section .subheading {
+  font-weight: 400;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #000000;
+  position: relative;
+}
+
+.heading-section h2 {
+  font-size: 34px;
+  font-weight: 800;
+}
+@media (max-width: 767.98px) {
+  .heading-section h2 {
+    font-size: 28px;
+  }
+}
+
+.heading-section.heading-section-white .subheading {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.heading-section.heading-section-white h2 {
+  font-size: 40px;
+  color: #fff;
+}
+
+.heading-section.heading-section-white p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.heading-section .category {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+.heading-section .category span a {
+  color: #000000;
+}
+.heading-section .category span.active {
+  font-weight: 500;
+}
+
+/* doctors end */
+
 /* counter start */
 .counter {
   padding: 40px 0;
