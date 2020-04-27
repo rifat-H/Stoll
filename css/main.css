@@ -5,7 +5,7 @@
 
 .about .alfa_p {
   padding-bottom: 30px;
-  color: blue;
+  color: #2f89fc;
 }
 
 .about h3 {
@@ -26,7 +26,7 @@
 
 /* footer start */
 footer {
-  background-color: blue;
+  background-color: #2f89fc;
   padding: 75px 0;
   color: white;
 }
