@@ -4,11 +4,14 @@
   outline: 0px;
 }
 
-a, a:hover {
+a,
+a:hover {
   text-decoration: none;
 }
 
-ul, ol, li {
+ul,
+ol,
+li {
   list-style: none;
 }
 
@@ -17,7 +20,20 @@ img {
   border: none;
 }
 
-h1, h2, h3, h4, h5, h5, ul, ol, li, img, p, body, .navbar, .row {
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+ul,
+ol,
+li,
+img,
+p,
+body,
+.navbar,
+.row {
   margin: 0px;
   padding: 0px;
 }
@@ -214,16 +230,19 @@ h1, h2, h3, h4, h5, h5, ul, ol, li, img, p, body, .navbar, .row {
   color: #ff8000;
 }
 
-.staff:hover .ftco-social, .staff:focus .ftco-social {
+.staff:hover .ftco-social,
+.staff:focus .ftco-social {
   opacity: 1;
   top: -40px;
 }
 
-.staff:hover .img, .staff:focus .img {
+.staff:hover .img,
+.staff:focus .img {
   margin-top: -10px;
 }
 
-.staff:hover .text h3, .staff:focus .text h3 {
+.staff:hover .text h3,
+.staff:focus .text h3 {
   color: #2f89fc;
 }
 
@@ -316,7 +335,8 @@ h1, h2, h3, h4, h5, h5, ul, ol, li, img, p, body, .navbar, .row {
   width: 100%;
 }
 
-.testimony-section .owl-nav .owl-prev, .testimony-section .owl-nav .owl-next {
+.testimony-section .owl-nav .owl-prev,
+.testimony-section .owl-nav .owl-next {
   position: absolute;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -331,7 +351,8 @@ h1, h2, h3, h4, h5, h5, ul, ol, li, img, p, body, .navbar, .row {
   opacity: 0;
 }
 
-.testimony-section .owl-nav .owl-prev span:before, .testimony-section .owl-nav .owl-next span:before {
+.testimony-section .owl-nav .owl-prev span:before,
+.testimony-section .owl-nav .owl-next span:before {
   font-size: 30px;
   color: rgba(0, 0, 0, 0.2);
   -moz-transition: all 0.3s ease;
@@ -341,7 +362,10 @@ h1, h2, h3, h4, h5, h5, ul, ol, li, img, p, body, .navbar, .row {
   transition: all 0.3s ease;
 }
 
-.testimony-section .owl-nav .owl-prev:hover span:before, .testimony-section .owl-nav .owl-prev:focus span:before, .testimony-section .owl-nav .owl-next:hover span:before, .testimony-section .owl-nav .owl-next:focus span:before {
+.testimony-section .owl-nav .owl-prev:hover span:before,
+.testimony-section .owl-nav .owl-prev:focus span:before,
+.testimony-section .owl-nav .owl-next:hover span:before,
+.testimony-section .owl-nav .owl-next:focus span:before {
   color: #000000;
 }
 
@@ -355,7 +379,8 @@ h1, h2, h3, h4, h5, h5, ul, ol, li, img, p, body, .navbar, .row {
   margin-right: -80px;
 }
 
-.testimony-section:hover .owl-nav .owl-prev, .testimony-section:hover .owl-nav .owl-next {
+.testimony-section:hover .owl-nav .owl-prev,
+.testimony-section:hover .owl-nav .owl-next {
   opacity: 1;
 }
 
@@ -482,7 +507,8 @@ footer .social {
   margin-top: 10px;
 }
 
-footer ul {}
+footer ul {
+}
 
 footer ul li {
   /* margin: 0 21px; */
@@ -501,4 +527,18 @@ footer ul li a {
   font-size: 25px;
 }
 
+.footer_botttom {
+  background-color: #313131;
+  color: #fff;
+  padding: 10px 0;
+}
+.footer_botttom p {
+  padding: 0;
+  margin: 0;
+}
+
+.footer_botttom hr {
+  margin: 0;
+  margin-bottom: 5px;
+}
 /* footer end */
