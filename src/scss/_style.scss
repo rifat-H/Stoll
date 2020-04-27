@@ -61,5 +61,25 @@ header {
 
 // footer start
 footer {
+  background-color: $footer_background;
+  padding: 75px 0;
+
+  .social {
+    margin-top: 10px;
+    ul {
+      li {
+        margin: 0 21px;
+        a {
+          color: white;
+
+          svg {
+            &:hover {
+              color: orange;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 // footer end
