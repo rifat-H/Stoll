@@ -1,29 +1,28 @@
 /* about start */
-.about{
-    padding: 50px 0px;
+.about {
+  padding: 50px 0px;
 }
 
-.about .alfa_p{
-    padding-bottom: 30px;
-    color: $main_color;
+.about .alfa_p {
+  padding-bottom: 30px;
+  color: blue;
 }
 
-.about h3{
-    font-size: 36px;
-font-weight: bold;
-letter-spacing: 4px;
-line-height: 50px;
+.about h3 {
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  line-height: 50px;
 }
 
-.about .alfa_p1{
-    line-height: 25px;
-padding-bottom: 40px;
+.about .alfa_p1 {
+  line-height: 25px;
+  padding-bottom: 40px;
 }
 
-.about a{}
- /* about end */
-
-
+.about a {
+}
+/* about end */
 
 /* footer start */
 footer {
